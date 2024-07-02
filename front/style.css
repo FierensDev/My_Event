@@ -1,0 +1,153 @@
+body{
+    background: black;
+}
+
+.circle{
+    background: yellow;
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    border-radius: 50% 50% 0px 50%;
+    transform: rotate(45deg);
+}
+
+.three {
+    background: grey;
+    position: relative;
+    width: 500px;
+    height: 500px;
+}
+
+.three :nth-child(1) {
+    position: absolute;
+    top: 0;
+    left: 40%;
+
+    width: 100px;
+    height: 100px;
+    border-style: solid;
+    border-width: 30px;
+    border-color: rgba(255, 0, 0, 0) gold gold rgba(0, 128, 0, 0) ;
+    transform: rotate(45deg);
+}
+
+.three :nth-child(2) {
+    position: absolute;
+    top: 60px;
+    left: 40%;
+
+    width: 100px;
+    height: 100px;
+    border-style: solid;
+    border-width: 30px;
+    border-color: rgba(255, 0, 0, 0) gold gold rgba(0, 128, 0, 0) ;
+    transform: rotate(45deg);
+}
+
+.three :nth-child(3) {
+    position: absolute;
+    top: 120px;
+    left: 40%;
+
+    width: 100px;
+    height: 100px;
+    border-style: solid;
+    border-width: 30px;
+    border-color: rgba(255, 0, 0, 0) gold gold rgba(0, 128, 0, 0) ;
+    transform: rotate(45deg);
+}
+
+.forme{
+    background: grey;
+    width: 500px;
+    height: 500px;
+
+    position: relative;
+    background: yellow;
+    box-shadow: inset 0 250px 0 rosybrown;
+}
+
+.yellow{
+    position: absolute;
+
+    top: 0;
+    left: 0;
+
+    background: yellow;
+    border-radius: 0px 0px 50px 0px;
+    width: 90%;
+    height: 250px;
+    z-index: 2;
+}
+
+.rose{
+    position: absolute;
+
+   bottom: 0;
+    right:0px;
+    border-radius: 50px 0px 0px 0px;
+    background: rosybrown;
+    width: 90%;
+    height: 250px;
+    z-index: 1;
+
+
+}
+
+.circle{
+    position: absolute;
+
+    top: 30%;
+    left: 30%;
+
+    /* box-shadow: inset 30px 29px 20px rosybrown; */
+    background: linear-gradient(to bottom,
+    yellow 50%,  rosybrown 50%, rosybrown 100% );
+    transform: rotate(180deg);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+     z-index: 10;
+}
+
+.cercle {
+    background: red;
+position: relative;
+    width: 100%;
+    height: 500px;
+}
+
+.cercle :nth-child(1){
+    position: absolute;
+    top: 0;
+    background: transparent;
+    width: 100px;
+    height: 300Px;
+    
+    border: 10px solid orange;
+    border-radius: 60px 60px 0px 0px;
+    border-bottom: none;
+}
+
+.cercle :nth-child(2){
+    position: absolute;
+    top: 60px;
+    left: 110px;
+    background: transparent;
+    width: 100px;
+    height: 300Px;
+
+    border: 10px solid orange;
+    border-radius: 0px 0px 60px 60px;
+    border-top: none;
+}
+
+/* .cercle :nth-child(3){
+    background: blue;
+    width: 100px;
+    height: 300Px;
+
+    border: 10px solid orange;
+    border-radius: 60px 60px 0px 0px;
+} */

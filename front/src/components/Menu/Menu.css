@@ -1,0 +1,100 @@
+.Menu {
+    border-right: 1px solid var(--primary);
+    background: var(--bodyColor);
+}
+
+.Menu_SearchBar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250PX;
+    text-align: center;
+}
+
+.Menu_SearchBar label{
+    color: var(--primary);
+}
+
+.Menu_SearchBar input{
+    color: var(--primary);
+}
+
+.Menu_SearchBar select{
+    margin: auto;
+
+    width: 80%;
+    height: 50px;
+    border: 2px solid var(--primary);
+}
+
+.Adress {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.Adress input{
+    width: 80%;
+    height: 50px;
+    background: transparent;
+    border-right: 2px solid var(--primary);
+    margin-top: 10px;
+    text-align: center;
+}
+
+.Adress_List {
+    display: none;
+    position: absolute;
+    top: 50px;
+
+    width: 80%;
+
+    background: red;
+}
+
+.filtermap{
+
+    display: flex;
+    flex-wrap: wrap;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.filtermap select{
+    border: 3px solid var(--primary);
+
+    margin: 10px;
+}
+
+.buttonReset{
+    width: 80%;
+    background: var(--primary);
+    color: white;
+    padding: 15px;
+    margin-left: 25px;
+}
+
+@media screen and (max-width: 1024px) {
+.Menu_SearchBar{
+    width: 100px;
+    font-size: 10px;
+}
+
+.buttonReset{
+    width: 100%;
+
+    padding: 0;
+    margin-left: 0;
+}
+}
+
+@media screen and (max-width: 520){
+    
+    *{
+        background-color: blue;
+    }
+}

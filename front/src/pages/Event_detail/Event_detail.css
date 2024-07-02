@@ -1,0 +1,59 @@
+.Event_Detail_Info{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+}
+
+.Event_Detail_Info img {
+    width: 100%;
+}
+
+.Event_Detail_Info_div {
+    grid-column: span 2;
+    display: flex;
+    flex-direction: column;
+
+    justify-content:space-between;
+    font-size: 20px;
+}
+
+.Event_Detail_Info_div h1{
+    width: 95%;
+    text-align: center;
+    font-size: 40px;
+    color: var(--primary);
+}
+
+.Event_Detail_Info_div span{
+    border: 5px solid var(--primary);
+}
+
+.Event_Detail_Info_div button{
+    font-size: 30Px;
+    padding: 20px;
+    background: var(--primary);
+    color: white;
+    border: none;
+}
+
+.Event_Detail_Describe{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding-top: 20px;
+    border-top: 3px dotted var(--primary);
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+    /* width: 80%; */
+    font-size: 20px;
+    text-align: center;
+}
+
+.Event_Detail_Describe h3{
+    color: var(--primary);
+    font-size: 40px;
+}

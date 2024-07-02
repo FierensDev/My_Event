@@ -1,0 +1,57 @@
+.Event_Card {
+    position: relative;
+    display: flex;
+    border: 4px solid var(--primary);
+    margin: 40px;
+}
+
+/* .Event_Card img { */
+    /* transform:scale(1.20, 1.20); */
+/* } */
+
+.Event_Card_Content {
+    padding: 10px;
+}
+
+.Event_Card_Content_text p{
+    width : 100%;
+    height: 90px;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.Event_Card_Content_text{
+    /* background: red; */
+    position: relative;
+}
+
+.Event_Card_Content span{
+    margin: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.link_button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    transform: translate(-20px, 20px);
+
+    font-size: 17px;
+    padding: 10px;
+    background: var(--primary);
+    border: none;
+    color: var(--bodyColor);
+}
+
+.boxshadow{
+    height: 40px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to bottom,rgb(255 255 255 / 34%),#ffffff);
+
+}
