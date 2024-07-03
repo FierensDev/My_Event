@@ -2,15 +2,15 @@
   
   ----------------  
 
-  Ce projet a pour but d'utiliser une api externe qui regroupe des événements proches de chez vous.  
+This project aims to regroup the events near your location using an external API.
     
-`Démarrer le projet :`  
+`Start the project :`  
 ```
-dossier Front :
+Front end folder :
 npm install
 npm run start
 
-dossier Back :
+Back end folder :
 npm install
 npm run start
 ```
